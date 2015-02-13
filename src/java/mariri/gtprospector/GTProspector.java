@@ -34,10 +34,7 @@ public class GTProspector {
         prop = config.get(Configuration.CATEGORY_GENERAL, "findRadius", 2);
         ElectricProspector.FIND_RADIUS = prop.getInt();
         
-        prop = config.get(Configuration.CATEGORY_GENERAL, "fewThreasholdBase", 8);
-        ElectricProspector.FEW_THREASHOLD_BASE = prop.getInt();
-        
-        prop = config.get(Configuration.CATEGORY_GENERAL, "manyThreashold", 120);
+        prop = config.get(Configuration.CATEGORY_GENERAL, "manyThreashold", 80);
         ElectricProspector.MANY_THREASHOLD = prop.getInt();
         
         config.save();

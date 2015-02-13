@@ -16,14 +16,15 @@ public class ElectricProspectorLV extends ElectricProspector {
 	public void addRecipe(){
 	    GT_ModHandler.addCraftingRecipe(
 	    		new ItemStack(this), GT_ModHandler.RecipeBits.NOT_REMOVABLE,
-	    		new Object[] { "PGP", "MRd", "BCS",
+	    		new Object[] { "PES", "BGd", "CRW",
 	    			Character.valueOf('P'), OrePrefixes.plate.get(Materials.Steel),
-	    			Character.valueOf('G'), OrePrefixes.gear.get(Materials.Steel),
-	    			Character.valueOf('M'), ItemList.Electric_Piston_LV,
-	    			Character.valueOf('R'), OrePrefixes.stick.get(Materials.StainlessSteel),
+	    			Character.valueOf('E'), ItemList.Electric_Piston_LV,
+	    			Character.valueOf('S'), OrePrefixes.screw.get(Materials.Steel),
 	    			Character.valueOf('B'), OrePrefixes.battery.get(Materials.Basic),
+	    			Character.valueOf('G'), OrePrefixes.gear.get(Materials.StainlessSteel),
 	    			Character.valueOf('C'), OrePrefixes.circuit.get(Materials.Basic),
-	    			Character.valueOf('S'), OrePrefixes.plate.get(Materials.StainlessSteel)
+	    			Character.valueOf('R'), OrePrefixes.stick.get(Materials.StainlessSteel),
+	    			Character.valueOf('W'), OrePrefixes.cableGt01.get(Materials.Tin)
 	    		});
 	}
 }
