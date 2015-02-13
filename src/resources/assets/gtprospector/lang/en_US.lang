@@ -1,0 +1,11 @@
+#
+item.electricProspectorLV.name=Electric Prospector's Pick (LV)
+item.electricProspectorMV.name=Electric Prospector's Pick (MV)
+item.electricProspectorHV.name=Electric Prospector's Pick (HV)
+message.prospector.none=Vein is not found
+message.prospector.few=Found few ores (There is a vein in a little distance)
+message.prospector.many=Found many ores (There is a vein in near)
+tooltip.electricProspectorLV.0=You can find for a vein within 32 blocks
+tooltip.electricProspectorMV.0=You can find for a vein within 64 blocks
+tooltip.electricProspectorHV.0=You can find for a vein within 128 blocks
+
