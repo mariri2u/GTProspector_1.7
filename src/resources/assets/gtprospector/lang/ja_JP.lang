@@ -1,10 +1,6 @@
 #
-item.electricProspectorLV.name=電動炭鉱槌 (低圧)
-item.electricProspectorMV.name=電動炭鉱槌 (中圧)
-item.electricProspectorHV.name=電動炭鉱槌 (高圧)
-tooltip.electricProspectorLV.0=%dブロック先の鉱脈まで見つけることができます
-tooltip.electricProspectorMV.0=%dブロック先の鉱脈まで見つけることができます
-tooltip.electricProspectorHV.0=%dブロック先の鉱脈まで見つけることができます
+item.itemProspector.name=炭鉱槌
+tooltip.itemProspector.0=%dブロック先の鉱脈まで見つけることができます
 message.prospector.none=鉱脈は見つかりませんでした
 message.prospector.few=少しの鉱石が見つかりました (少し離れた位置に鉱脈があります)
 message.prospector.many=多くの鉱石が見つかりました (近くに鉱脈があります)
