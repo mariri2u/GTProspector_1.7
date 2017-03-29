@@ -11,7 +11,7 @@ import net.minecraftforge.common.config.Property;
 @Mod(modid = GTProspector.MODID, version = GTProspector.VERSION, dependencies = GTProspector.DEPENDENCIES )
 public class GTProspector {
     public static final String MODID = "GTProspector";
-    public static final String VERSION = "1.7.10-1.1-alpha1";
+    public static final String VERSION = "1.7.10-1.1";
     public static final String DEPENDENCIES = "required-after:gregtech;";
 
     public static boolean MINI_FIX;
